@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white ;
+}
+
+body{
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+}
+
+.header, .main, .footer, .section{
+    display: flex;
+}
+
+.header, .nav, .aside, .section, .footer{
+    background-color: rgb(65, 65, 65);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.header{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: 600px;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav, .aside{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section{
+    width: 60%;
+    padding: 10px;
+}
+
+.section{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.section__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__header, .section__article, .section__footer{
+    background-color: rgb(145, 145, 145);
+    border-radius: 7px;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__article{
+    flex: 0 1 60% ;
+}
+
+.section__footer, .section__header{
+    flex: 0 1 20%;
+}
