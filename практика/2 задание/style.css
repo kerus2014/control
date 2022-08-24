@@ -1,0 +1,13 @@
+p{
+    width: 400px;
+}
+
+p::after{
+    content: ':конец!';
+    color: green;
+}
+
+p::before{
+    content: 'Начало:';
+    color: red;
+}
