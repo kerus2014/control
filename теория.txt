@@ -1,0 +1,22 @@
+1.html - это язык разметки
+2.через link и напрямую в <head> писать style
+3. body
+4. для текста (паракраф)
+5. через тег img
+6. через тег <a>
+7. C
+8. a,d,е
+9. все кроме c и f
+10. e,f
+11. head и body
+12. li-1
+    ul li - 2
+    ul ol + div - 
+    .wrapper - 10
+    .wrapper a span - 12
+    #wrapper .container - 110 
+    #container a - 101
+    .list a - 11
+13. тот элемент у которого есть обЪяснение его содержимого. Пример -header, footer, table
+14. flex (ну тут понятно), block(блочный занимает всю ширину), inline(строчный занимет не всю ширину, не меняется ширина и высота width height ), inline-block(блочно-строчный), grid(типа flex+table)
+15. <div style="float:right/text align:right">Front-end курсы</div>   
